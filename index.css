@@ -1,16 +1,35 @@
 
 body {
 font-family: Helvetica, sans-serif;
-
+line-height: 1.6;
 }
-
 
 .main {
     display: flex;
+    margin: 20px;
+    background-color: #f2f2f2;
 }
 
 .main-content{
-    background-color: pink;
+    
+    display:grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-gap: 20px;
+    padding: 10px;
+    
+}
+article {
+    text-align: justify;
+    text-justify: inter-wor
+}
+article > h2 {
+    text-align: center;
+    font-size:medium;
+}
+
+.article-image {
+    height:230px;
+    width:280px;
 }
 
 .card {
@@ -23,25 +42,31 @@ font-family: Helvetica, sans-serif;
 
 .sidebar{
     max-width: 300px;
-    margin: 0 20px;
+    margin: 20px;
 }
 
 .sidebar-text{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: skyblue;
     padding:10px;
 }
+
+footer {
+    text-align: center;
+    border-top: 2px solid gainsboro;
+    padding: 25px;
+    margin-top: 50px;
+    }
 
 @media (max-width:720px) {
     .main{
         flex-direction: column;
     }
-
-    
+ 
     aside{
         display:flex;
+        flex-direction: row;
         margin: 0px;
     }
      .sidebar-text {
@@ -50,9 +75,3 @@ font-family: Helvetica, sans-serif;
    
 }
 
-footer {
-text-align: center;
-border-top: 2px solid gainsboro;
-padding: 25px;
-margin-top: 50px;
-}
