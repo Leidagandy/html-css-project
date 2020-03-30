@@ -49,3 +49,10 @@ font-family: Helvetica, sans-serif;
      }
    
 }
+
+footer {
+text-align: center;
+border-top: 2px solid gainsboro;
+padding: 25px;
+margin-top: 50px;
+}
