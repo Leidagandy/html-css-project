@@ -20,7 +20,7 @@ line-height: 1.6;
 }
 article {
     text-align: justify;
-     text-justify: inter-word; /*check if this is right*/
+     text-justify: inter-word;
 }
 article > h2 {
     text-align: center;
@@ -59,9 +59,10 @@ footer {
     margin-top: 50px;
     }
 
-@media (max-width:720px) {
+@media screen and (max-width:400px) {
     .main{
-        flex-direction: column;
+        display: grid;
+        grid-column: 2;
     }
  
     aside{
