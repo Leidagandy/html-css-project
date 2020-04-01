@@ -59,11 +59,17 @@ footer {
     margin-top: 50px;
     }
 
-@media (max-width:720px) {
+/* @media (max-width:720px) {
     .main{
         flex-direction: column;
-    }
+    } */
  
+    @media screen and (max-width:400px) {
+        .main{
+            display: grid;
+            grid-column: 2;
+        }
+        
     aside{
         display:flex;
         flex-direction: row;
