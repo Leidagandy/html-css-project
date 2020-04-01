@@ -61,8 +61,8 @@ footer {
 
 @media screen and (max-width:400px) {
     .main{
-        display: grid;
-        grid-column: 2;
+        display: flex;
+    flex-direction: column;
     }
  
     aside{
@@ -73,6 +73,11 @@ footer {
      .sidebar-text {
          min-width: 300px;
      }
-   
+
+.section-content { 
+
+    display: flex;
+    flex-direction: column;
+}
 }
 
