@@ -20,7 +20,7 @@ line-height: 1.6;
 }
 article {
     text-align: justify;
-    text-justify: inter-wor
+     text-justify: inter-word; /*check if this is right*/
 }
 article > h2 {
     text-align: center;
